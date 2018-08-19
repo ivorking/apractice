@@ -79,10 +79,7 @@ $(document).ready(function() {
       formData.telephone = $('#firstbox').val();
       formData.emailaddress = $('#secondbox').val();
       console.log("form submitted, with the following data:", formData);
-
-      // can enable redirect to avamae site on form on submission
-      // window.location = "https://www.avamae.co.uk/";
-
+      alert('Form submitted');
     } else {
       $('#first').css("background-color", "#AAAAAA");
       $('#second').css("background-color", "#717171");
