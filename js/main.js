@@ -7,10 +7,11 @@ var loremContent = "Lorem ipsum dolor sit amet, consectetuer adipiscing eleifin.
 // if more slides are being used, increase slidecounter
 var slideNumber = 3;
 
+// keeps track of input form page number
 var pageCounter = 1;
 
 // set up form data for submission
-formData = {
+var formData = {
   firstname: null,
   lastname: null,
   emailaddress: null,
@@ -47,7 +48,7 @@ var mySwiper = new Swiper('.swiper-container', {
   }
 });
 
-  // check if slide is blank and remove it
+// check if slide is blank and remove it
 $('.swiper-slide').each(function(){
   if ($(this).html().length==0) $(this).parent().remove()
 })
@@ -97,6 +98,7 @@ $(document).ready(function() {
       console.log('switching to page 2');
       pageCounter = 2;
     }
+
   });
 });
 

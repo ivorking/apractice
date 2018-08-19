@@ -20,6 +20,7 @@ Requirements:
 - optimised and tested on Chrome browser (current version)
 - used fixed width layout as starting point as requirement was for an "identical" reproduction (would have been more efficient/quicker to use a liquid responsive layout based on percentages, but this  distorts positioning on browser resizing)
 - aimed for pixel by pixel accuracy, but generally error margin of 1px
+- check console for notes while program running
 
 ## Additional features
 
@@ -28,7 +29,6 @@ These are the features I would add:
 - don't allow forms to be submitted without all fields entered (form currently allows null values)
 - allow user to click back to first page before final submission
 - additional action on user submitting data
-- check console.log info and correct in-code comments
 - add input point for lorem ipsum
 - finalise font reproduction
 - screentips and accessibility features
