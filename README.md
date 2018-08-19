@@ -19,19 +19,19 @@ ADDITIONAL FEATURES
 
 These are the features I would add:
 - data validation on forms
-- would not allow forms to be submitted without all fields entered (form currently allows null values)
+- don't allow forms to be submitted without all fields entered (form currently allows null values)
 - allow user to click back to first page before final submission
+- additional action on user submitting data
+- check console.log info and correct in-code comments
+- correct rendering on mobile device
+- add input point for lorem ipsum
+- finalise font reproduction
 
 Notes
-- not sure what is meant by min responsiveness to 320px - that is smaller than the images provided. If necessary I can shrink page elements maintaining aspect ratio if screen is smaller than 410px wide.
 - used fixed width layout as starting point as requirement was for an "identical" reproduction (would have been more efficient/quicker to use a liquid layout based on percentages, but this quickly distorts on browser resizing)
 - aimed for pixel by pixel accuracy, but generally error margin of 1px
-- left of screentips and accessibility features - but could add them
+- left out screentips and accessibility features - but could add them
 
 ## Licence
 
 This source code is subject to a **CC BY-NC-SA 4.0** licence (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International). This licence means this code and images may not be used for commercial purposes.
-
-
-
-# apractice

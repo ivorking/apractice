@@ -40,7 +40,6 @@ var mySwiper = new Swiper('.swiper-container', {
 
 setTimeout(function(){
   mySwiper.update(true);
-  // mySwiper.slideTo(0, 0)
 }, 100);
 
 // set up form data for submission
@@ -79,7 +78,7 @@ $(document).ready(function() {
       $('#first').css("background-color", "#AAAAAA");
       $('#second').css("background-color", "#717171");
       formData.firstname = $('#firstbox').val();
-      formData.secondname = $('#secondbox').val();
+      formData.lastname = $('#secondbox').val();
       $('#firstbox').val("");
       $('#secondbox').val("");
       // update the input form
