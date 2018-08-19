@@ -296,3 +296,12 @@ button {
   }
 
 }
+
+@media only screen and (max-width: 384px) {
+
+  .pagecontainer {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+}
