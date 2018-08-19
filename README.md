@@ -21,6 +21,7 @@ Requirements:
 - used fixed width layout as starting point as requirement was for an "identical" reproduction (would have been more efficient/quicker to use a liquid responsive layout based on percentages, but this  distorts positioning on browser resizing)
 - aimed for pixel by pixel accuracy, but generally error margin of 1px
 - check console for notes while program running
+- node modules are included but they are only there as dependencies
 
 ## Additional features
 
