@@ -220,7 +220,7 @@ button {
   position: relative;
 }
 
-/* smaller screen CSS settings, 2 images in slider */
+/* smaller screen CSS settings at multiple width points, including dynamic resizing */
 
 @media only screen and (max-width: 867px) {
 
