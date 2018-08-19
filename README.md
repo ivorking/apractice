@@ -23,7 +23,6 @@ These are the features I would add:
 - allow user to click back to first page before final submission
 - additional action on user submitting data
 - check console.log info and correct in-code comments
-- correct rendering on mobile device
 - add input point for lorem ipsum
 - finalise font reproduction
 
