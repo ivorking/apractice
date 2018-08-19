@@ -313,4 +313,18 @@ button {
     height: 100%;
   }
 
+  #puzzleimagecontainer {
+    width: auto;
+  }
+
+  #puzzleimg {
+    object-position: 0 0;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+  }
+
 }
