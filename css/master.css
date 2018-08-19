@@ -282,4 +282,17 @@ button {
     margin-top: 20px;
   }
 
+  .puzzlecontainer, .inputcontainer, .puzzleimagecontainer {
+    width: 70%;
+    height: 70%;
+  }
+
+  .inputcontainer {
+    padding-left: 0px;
+  }
+
+  #puzzleimg {
+    position: absolute;
+  }
+
 }
