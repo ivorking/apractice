@@ -1,12 +1,21 @@
 // check JS connnected
 console.log("javascript connected");
 
+// global variables
+// change lorem text here
+var loremContent = "Lorem ipsum dolor sit amet, consectetuer adipiscing eleifin. Suspendisse iaculis mi ut elit. Suspendisse aliquam fermen sem. Etiam blandit mattis velit. Integer posuere. Nullam fermentum. Integer aliquam, purus a eleifend vehicula, tellus odio bibendum leo, vitae vestibulum ipsum mi id augue. Sed viverra. Curabitur consequat sagittis justo.";
+// if more slides are being used, increase slidecounter
+var slideNumber = 3;
+
 var pageCounter = 1;
 
-$('.swiper-slide').each(function(){
-  //Check if slide is blank and remove it
-  if ($(this).html().length==0) $(this).parent().remove()
-})
+// set up form data for submission
+formData = {
+  firstname: null,
+  lastname: null,
+  emailaddress: null,
+  telephone: null
+}
 
 // initialize swiper
 var mySwiper = new Swiper('.swiper-container', {
@@ -17,7 +26,7 @@ var mySwiper = new Swiper('.swiper-container', {
   effect: 'slide',
   direction: 'horizontal',
   centeredSlides: true,
-  slidesPerView: 3,
+  slidesPerView: slideNumber,
   spaceBetween: 14,
   observer: true,
   navigation: {
@@ -25,7 +34,7 @@ var mySwiper = new Swiper('.swiper-container', {
     prevEl: '.swiper-button-prev'
   },
 
-  // Responsive breakpoints
+  // responsive breakpoints
   breakpoints: {
     // when window width is <= 848px
     867: {
@@ -38,17 +47,14 @@ var mySwiper = new Swiper('.swiper-container', {
   }
 });
 
+  // check if slide is blank and remove it
+$('.swiper-slide').each(function(){
+  if ($(this).html().length==0) $(this).parent().remove()
+})
+
 setTimeout(function(){
   mySwiper.update(true);
 }, 100);
-
-// set up form data for submission
-formData = {
-  firstname: null,
-  lastname: null,
-  emailaddress: null,
-  telephone: null
-}
 
 $(document).ready(function() {
 
@@ -63,17 +69,19 @@ $(document).ready(function() {
   $('#first').css("background-color", "#717171");
   $('#second').css("background-color", "#AAAAAA");
 
+  $('#loremtext').text(loremContent);
+
   $('#nextbutton').on('click', function () {
 
     if (pageCounter == 2) {
       console.log("submitting page");
       formData.telephone = $('#firstbox').val();
       formData.emailaddress = $('#secondbox').val();
-      // $('#mainform').submit();
-      console.log("Form submitted, with the following data:", formData);
+      console.log("form submitted, with the following data:", formData);
 
       // can enable redirect to avamae site on form on submission
       // window.location = "https://www.avamae.co.uk/";
+
     } else {
       $('#first').css("background-color", "#AAAAAA");
       $('#second').css("background-color", "#717171");
@@ -81,6 +89,7 @@ $(document).ready(function() {
       formData.lastname = $('#secondbox').val();
       $('#firstbox').val("");
       $('#secondbox').val("");
+
       // update the input form
       $('#firsttext').text("Telephone number:");
       $('#secondtext').text("Email address:");

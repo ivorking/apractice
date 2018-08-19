@@ -18,7 +18,7 @@ Requirements:
 ## Notes on solution
 
 - optimised and tested on Chrome browser (current version)
-- used fixed width layout as starting point as requirement was for an "identical" reproduction (would have been more efficient/quicker to use a liquid layout based on percentages, but this quickly distorts on browser resizing)
+- used fixed width layout as starting point as requirement was for an "identical" reproduction (would have been more efficient/quicker to use a liquid responsive layout based on percentages, but this  distorts positioning on browser resizing)
 - aimed for pixel by pixel accuracy, but generally error margin of 1px
 
 ## Additional features
@@ -32,7 +32,7 @@ These are the features I would add:
 - add input point for lorem ipsum
 - finalise font reproduction
 - screentips and accessibility features
-- optimisaation for other browser types
+- optimisation for other browser types
 
 ## Licence
 
