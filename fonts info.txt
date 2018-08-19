@@ -1,3 +1,5 @@
+Based on Adobe font detection - closest matches
+
 "Page Title"
 Arial Regular 24pt
 
