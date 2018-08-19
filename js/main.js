@@ -3,7 +3,7 @@ console.log("javascript connected");
 
 // global variables
 // change lorem text here
-var loremContent = "Lorem ipsum dolor sit amet, consectetuer adipiscing eleifin. Suspendisse iaculis mi ut elit. Suspendisse aliquam fermen sem. Etiam blandit mattis velit. Integer posuere. Nullam fermentum. Integer aliquam, purus a eleifend vehicula, tellus odio bibendum leo, vitae vestibulum ipsum mi id augue. Sed viverra. Curabitur consequat sagittis justo.";
+var loremContent = "Lorem ipsum dolor sit amet, consectetuer adipiscing eleifen. Suspendisse iaculis mi ut elit. Suspendisse aliquam fermen sem. Etiam blandit mattis velit. Integer posuere. Nullam fermentum. Integer aliquam, purus a eleifend vehicula, tellus odio bibendum leo, vitae vestibulum ipsum mi id augue. Sed viverra. Curabitur consequat sagittis justo.";
 // if more slides are being used, increase slidecounter
 var slideNumber = 3;
 
@@ -105,7 +105,7 @@ $(document).ready(function() {
         $('#firsttext').text("Telephone number:");
         $('#secondtext').text("Email address:");
 
-        console.log('switching to page 2');
+        console.log('switching to input form page 2');
         pageCounter = 2;
       }
     }

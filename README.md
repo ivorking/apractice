@@ -26,13 +26,10 @@ Requirements:
 
 These are the features I would add:
 - data validation on forms
-- don't allow forms to be submitted without all fields entered (form currently allows null values)
-- allow user to click back to first page before final submission
-- additional action on user submitting data
-- add input point for lorem ipsum
-- finalise font reproduction
+- improve font reproduction & shadowing
 - screentips and accessibility features
 - optimisation for other browser types
+- allow user to click back to first page before final submission
 
 ## Licence
 

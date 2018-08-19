@@ -20,6 +20,7 @@ h1 {
   font-size: 18pt;
   margin-top: 35px;
   margin-left: 19px;
+  margin-bottom: 10px;
 }
 
 .pagecontainer {
@@ -100,7 +101,15 @@ h1 {
 }
 
 .secondline {
-  margin-top: 19px;
+  margin-top: 18px;
+}
+
+#mainform {
+  margin-top: 4px;
+}
+
+#mainform p {
+  margin-top: -2px;
 }
 
 .inputformline {
@@ -127,7 +136,9 @@ h1 {
   opacity: 0.5;
   bottom: 0;
   left: 0;
-  padding: 8px;
+  padding: 14px;
+  padding-left: 15px;
+  padding-bottom: 10px;
   max-width: fit-content;
   font-size: 10.5pt;
   line-height: 1.25;
@@ -145,7 +156,7 @@ footer {
 footer p {
   color: black;
   text-align: center;
-  margin: 9px 0 25px 0;
+  margin: 7px 0 25px 0;
 }
 
 /* buttons settings */
