@@ -18,16 +18,12 @@ body {
 h1 {
   font-weight: normal;
   font-size: 18pt;
-  margin-top: 35px;
-  margin-left: 19px;
-  margin-bottom: 10px;
+  margin: 35px 0 10px 19px;
 }
 
 .pagecontainer {
   background-color: #DDDDDD;
-  margin-top: 0;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin: 0 2em 0 2em;
   width: 938px;
 }
 
@@ -79,7 +75,7 @@ h1 {
 }
 
 #puzzleimg {
-  padding: 0px;
+  padding: 0;
   width: 100%;
   object-fit: cover;
   object-position: 0 -419px;
@@ -91,7 +87,7 @@ h1 {
   color:#AAAAAA;
   background-color:#AAAAAA;
   border: none;
-  margin: 1.5px 0 0 0px;
+  margin: 1.5px 0 0 0;
   margin: auto;
 }
 
@@ -117,7 +113,7 @@ h1 {
   color:#AAAAAA;
   background-color:#AAAAAA;
   border: none;
-  margin: 1px 0 0 0px;
+  margin: 1px 0 0 0;
   max-width: 389px;
 }
 
@@ -145,7 +141,7 @@ h1 {
 }
 
 img {
-  margin: 0px;
+  margin: 0;
 }
 
 footer {
@@ -233,8 +229,8 @@ button {
 
 .swiper-slide img {
   width: 267px;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   position: relative;
 }
 
@@ -248,9 +244,7 @@ button {
 
   .pagecontainer {
     background-color: #DDDDDD;
-    margin-top: 0;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin: 0 2em 0 2em;
     width: auto;
   }
 
@@ -287,8 +281,6 @@ button {
 
 }
 
-/* smaller screen CSS settings, 1 image in slider */
-
 @media only screen and (max-width: 503px) {
 
   .swiper-container {
@@ -305,7 +297,7 @@ button {
   }
 
   .inputcontainer {
-    padding-left: 0px;
+    padding-left: 0;
     width: 100%;
   }
 
@@ -314,7 +306,7 @@ button {
     height: 100%;
     object-fit: cover;
     width: 100%;
-    padding: 0px;
+    padding: 0;
     object-position: unset;
   }
 
