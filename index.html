@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="css/master.css">
+
+  <title>Practice</title>
+</head>
+
+<body>
+  <div class="pagecontainer">
+    <h1>
+      Page Title
+    </h1>
+
+    <!-- swiper -->
+    <div class="swiper-band">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/box3.jpg">
+          </div>
+          <div class="swiper-slide">
+              <img src="images/box2.jpg">
+
+          </div>
+          <div class="swiper-slide">
+            <img src="images/box4.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <hr class="firstline">
+
+    <div class="secondrowcontainer">
+
+      <!-- puzzle -->
+      <div class="puzzlecontainer">
+        <div id="puzzleimagecontainer">
+          <img id="puzzleimg" src="images/puzzle.jpg">
+        </div>
+        <div class="textbox1">
+
+          <!-- enter additional lorem text here if required -->
+          <p id="loremtext">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing eleifin. Suspendisse iaculis mi ut elit. Suspendisse aliquam fermen sem. Etiam blandit mattis velit. Integer posuere. Nullam fermentum. Integer aliquam, purus a eleifend vehicula, tellus odio bibendum leo, vitae vestibulum ipsum mi id augue. Sed viverra. Curabitur consequat sagittis justo.
+          </p>
+        </div>
+      </div>
+
+      <!-- forms -->
+      <div class="inputcontainer">
+        <div class="inputheader">
+          <button id="first" style="background-color: #717171" disabled>Step 1</button>
+          <button id="second" disabled>Step 2</button>
+          <hr class="inputformline">
+        </div>
+        <br>
+        <form id="mainform">
+          <div id="firsttext">First name: </div>
+          <input id="firstbox" type="text" value="">
+          <p />
+          <div id="secondtext">Last name: </div>
+          <input id="secondbox" type="text" value="">
+          <br>
+          <div class="buttoncontainer">
+            <button type="button" id="nextbutton">Next</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <hr class="secondline">
+    <!-- footer -->
+    <footer>
+      <p>Page footer</p>
+    </footer>
+  </div>
+
+</body>
+
+<script src="node_modules/swiper/dist/js/swiper.min.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</html>

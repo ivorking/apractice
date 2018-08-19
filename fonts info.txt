@@ -1,0 +1,14 @@
+"Page Title"
+Arial Regular 24pt
+
+Lorem text
+Arila Regular 14pt, crisp
+
+Input forms
+Arial Regular, 18pt, crisp
+
+First name, Last name
+Arial, Regular 12pt, sharp
+
+"Page Footer"
+Arial Regular, 16pt, crisp
