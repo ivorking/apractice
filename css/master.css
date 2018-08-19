@@ -304,4 +304,13 @@ button {
     margin-right: 0;
   }
 
+  .secondrowcontainer {
+    width: unset;
+  }
+
+  .puzzlecontainr: {
+    width: 100%;
+    height: 100%;
+  }
+
 }
