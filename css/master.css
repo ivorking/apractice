@@ -1,7 +1,7 @@
 html {
   height: 100%;
   flex-direction: column;
-  display: flex;
+  display: grid;
   position: relative;
 }
 
@@ -141,7 +141,7 @@ footer {
 footer p {
   color: black;
   text-align: center;
-  margin: 9px 0 0 0;
+  margin: 9px 0 25px 0;
 }
 
 /* buttons settings */
@@ -271,7 +271,7 @@ button {
 
 /* smaller screen CSS settings, 1 image in slider */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 503px) {
 
   .swiper-container {
     width: 275px;
@@ -282,17 +282,32 @@ button {
     margin-top: 20px;
   }
 
-  .puzzlecontainer, .inputcontainer, .puzzleimagecontainer {
-    width: 70%;
-    height: 70%;
+  .puzzlecontainer {
+    width: 100%;
   }
 
   .inputcontainer {
     padding-left: 0px;
+    width: 100%;
   }
 
   #puzzleimg {
     position: absolute;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    padding: 0px;
+    object-position: unset;
+  }
+
+  #puzzleimagecontainer {
+    width: auto;
+  }
+
+  .secondrowcontainer {
+    width: 80%;
+    display: table;
+    align-content: center;
   }
 
 }
@@ -305,7 +320,7 @@ button {
   }
 
   .secondrowcontainer {
-    width: unset;
+    width: 80%;
   }
 
   .puzzlecontainr: {

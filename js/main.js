@@ -32,7 +32,7 @@ var mySwiper = new Swiper('.swiper-container', {
       slidesPerView: 2
     },
     // when window width is <= 480px
-    480: {
+    503: {
       slidesPerView: 1,
     }
   }
