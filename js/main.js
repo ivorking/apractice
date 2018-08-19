@@ -101,7 +101,7 @@ $(document).ready(function() {
         $('#firstbox').val("");
         $('#secondbox').val("");
 
-        // update the input form
+        // update the input form for page 2
         $('#firsttext').text("Telephone number:");
         $('#secondtext').text("Email address:");
 
