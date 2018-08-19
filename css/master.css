@@ -60,6 +60,10 @@ h1 {
   font-size: 12px;
 }
 
+#firstbox, #secondbox {
+  background-color: white;
+}
+
 .secondrowcontainer {
   padding: 10px;
   width: 832px;
