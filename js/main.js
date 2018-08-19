@@ -75,27 +75,40 @@ $(document).ready(function() {
   $('#nextbutton').on('click', function () {
 
     if (pageCounter == 2) {
-      console.log("submitting page");
+
       formData.telephone = $('#firstbox').val();
       formData.emailaddress = $('#secondbox').val();
-      console.log("form submitted, with the following data:", formData);
-      alert('Form submitted');
+
+      // check not empty fields before submitting
+
+      if ((formData.telephone) && (formData.emailaddress)) {
+        console.log("form submitted, with the following data:", formData);
+        window.confirm('Form submitted!');
+      }
+
     } else {
-      $('#first').css("background-color", "#AAAAAA");
-      $('#second').css("background-color", "#717171");
+
       formData.firstname = $('#firstbox').val();
       formData.lastname = $('#secondbox').val();
-      $('#firstbox').val("");
-      $('#secondbox').val("");
 
-      // update the input form
-      $('#firsttext').text("Telephone number:");
-      $('#secondtext').text("Email address:");
+      // check not empty fields before moving to page 2
 
-      console.log('switching to page 2');
-      pageCounter = 2;
+      if ((formData.firstname) && (formData.lastname)) {
+
+        $('#first').css("background-color", "#AAAAAA");
+        $('#second').css("background-color", "#717171");
+
+        $('#firstbox').val("");
+        $('#secondbox').val("");
+
+        // update the input form
+        $('#firsttext').text("Telephone number:");
+        $('#secondtext').text("Email address:");
+
+        console.log('switching to page 2');
+        pageCounter = 2;
+      }
     }
-
   });
 });
 
